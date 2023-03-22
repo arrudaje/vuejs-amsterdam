@@ -1,0 +1,58 @@
+apiVersion: shipper.booking.com/v1
+kind: Application
+metadata:
+  name: et
+  labels:
+    service-directory.project: experimentation-platform
+    service-directory.service: et
+    dev_cleanup_disable: 'true'
+spec:
+  revisionHistoryLimit: 1
+  template:
+    clusterRequirements:
+      regions:
+        - name: eu-nl
+      capabilities: []
+    chart:
+      name: nodejs
+      version: ^3
+      repoUrl: https://artifactory.booking.com/charts
+    values:
+      name: et
+      stagingService:
+        enabled: false
+      env:
+        - name: SERVER_ROLE
+          value: 'b-experimentation-platform-et'
+        - name: NODE_ENV
+          value: 'development'
+        - name: FORCE_SEND_TO_FLOG
+          value: 'on'
+      resources:
+        limits:
+          cpu: 1000m
+          memory: 1Gi
+      image: PERSONAL_DEV_REPO:latest
+      ports:
+        80: '3000'
+        443: '3000'
+        8080: '8080'
+      sidecars:
+        envoy:
+          enabled: true
+          resources:
+            limits:
+              cpu: 1000m
+              memory: 768Mi
+            requests:
+              cpu: 1000m
+              memory: 400Mi
+    strategy:
+      steps:
+        - name: full on
+          capacity:
+            incumbent: 0
+            contender: 100
+          traffic:
+            incumbent: 0
+            contender: 100
