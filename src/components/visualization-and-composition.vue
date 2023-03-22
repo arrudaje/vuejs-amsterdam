@@ -1,6 +1,6 @@
 <template>
-  <h1>Pinceau: Approaching CSS-in-JS with Vue</h1>
-  <p>Options for doing CSS-in-JS, and how to integrate it in Vue.</p>
-  <h5>Application inside ET:</h5>
-  <p>Meh... No, thank you.</p>
+  <h1>The art of visualization and composition in building component systems</h1>
+  <p>Deep dive about how to design and split an interface into components.</p>
+  <h5>Takeaway:</h5>
+  <p>TL;DR: plan components first, write code second. Separate logic and UI.</p>
 </template>

@@ -1,6 +1,6 @@
 <template>
-  <h1>UnJS: Nitropack</h1>
-  <p>Introduction to UnJS Nitro server, which powers Nuxt, and its roadmap for 2023.</p>
+  <h1>Pinceau: Approaching CSS-in-JS with Vue</h1>
+  <p>Options for doing CSS-in-JS, and how to integrate it in Vue.</p>
   <h5>Application inside ET:</h5>
-  <p>Nitro has many interesting features out of the box that could be interesting for the server side of Experimentation Platform. We could consider moving from Express to Nitro.</p>
+  <p>Meh... No, thank you.</p>
 </template>

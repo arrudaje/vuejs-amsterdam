@@ -1,6 +1,6 @@
 <template>
-  <h1>Prevent, Catch and Fix Accessibility Issues</h1>
-  <p>Introduction to a11y, and the overview of the top 10 most common issues.</p>
-  <h5>Takeaway:</h5>
-  <p>Accessibility is important. We should take the learnings of this talk, and apply it to our applications.</p>
+  <h1>Proven Pinia Patterns</h1>
+  <p>Introduction to Pinia state manager and how to use it.</p>
+  <h5>Applications inside ET:</h5>
+  <p>At some point we need to move from Vuex, which is EoL. This one was a nice introduction to Pinia, and how to use it in Vue3.</p>
 </template>

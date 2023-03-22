@@ -1,6 +1,3 @@
 .DS_Store
 
-**/node_modules
-client/build
-client/tests
-**/*.log
+node_modules

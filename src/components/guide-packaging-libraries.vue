@@ -1,6 +1,8 @@
 <template>
-  <h1>Alive and Kicking. A Vue into Rock & Roll!</h1>
-  <p>Basically, a developer who is also a guitar player showing off his musical skills</p>
-  <p>Vue is so flexible it allows you to build a midi-based guitar amplifier and play along</p>
-  <p>Cool.</p>
+  <h1>The Complete Guide to packaging Libraries</h1>
+  <p>A great overview about how to package JavaScript code so it is supported in different environments, including TypeScript, ESM, Typescript and Vue components</p>
+  <h5>Applications inside ET:</h5>
+  <p>
+    We distribute a few packages like the ET design system, the power calculator and the monitoring library. All of them could benefit of an update with the learnings of this talk.
+  </p>
 </template>

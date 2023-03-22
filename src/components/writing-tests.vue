@@ -1,6 +1,6 @@
 <template>
-  <h1>Prevent, Catch and Fix Accessibility Issues</h1>
-  <p>Introduction to a11y, and the overview of the top 10 most common issues.</p>
+  <h1>Writing (really) good tests</h1>
+  <p>Best practices and reiteration on the importance of having comprehensive tests in place.</p>
   <h5>Takeaway:</h5>
-  <p>Accessibility is important. We should take the learnings of this talk, and apply it to our applications.</p>
+  <p>Tests first, coding second. Decouple tests from framework, from implementation details and from UI.</p>
 </template>

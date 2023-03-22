@@ -1,6 +1,6 @@
 <template>
-  <h1>Prevent, Catch and Fix Accessibility Issues</h1>
-  <p>Introduction to a11y, and the overview of the top 10 most common issues.</p>
+  <h1>A Saga of Web Rendering Woes</h1>
+  <p>SWR, SPA, SSR, SSG... what they mean and their implications.</p>
   <h5>Takeaway:</h5>
-  <p>Accessibility is important. We should take the learnings of this talk, and apply it to our applications.</p>
+  <p>Some clarity of the different rendering methods. For our needs, SPA or SSR seems to be the best approaches.</p>
 </template>
